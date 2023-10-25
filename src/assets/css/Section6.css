@@ -1,0 +1,101 @@
+.section6 {
+    background-image: url("../images/bg3.png");
+    Height: 868px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 6rem;
+  }
+  
+  .top {
+    text-align: right;
+    position: relative;
+    top: 105px;
+    right: 160px;
+  
+  }
+  
+  .top h3 {
+    height: 35px;
+    font-family: Asul;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 46px;
+    color: rgba(38, 154, 220, 1);
+  }
+  
+  .top h1 {
+    font-family: Arial;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+  }
+  
+  .bottom {
+    margin: auto;
+    width: 75% !important;
+    padding: 10px;
+  }
+  
+  .card {
+    Height: 385px;
+    padding: 20px;
+    top: 5px;
+    margin-top: 6rem;
+    box-shadow: 0 5px 33px -5px rgba(254, 167, 0, 1);
+    background-repeat: no-repeat;
+    background-image: url('/src/images/Rectangle.png');
+    background-position: bottom;
+    background-size: contain;
+    /* border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    border-bottom-left-radius: 22px; */
+    border-radius: 22px;
+  }
+  
+  
+  .cardimg {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  
+  .slick-dots {
+    display: flex !important;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .slick-prev {
+    left: 10%;
+    bottom: 5%;
+    z-index: 1;
+  }
+  
+  .slick-next {
+    right: 10%;
+    z-index: 1;
+  }
+  
+  .vector{
+    position: relative;
+    top: 56px;
+  }
+  
+  .comma{
+    position: relative;
+    margin-left: auto;
+    bottom: 187px;
+    right: 47px;
+  }
+  
+  .triangle{
+  position: relative;
+  left: 301px;
+      bottom: 10px;
+  }

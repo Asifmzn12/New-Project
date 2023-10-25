@@ -1,0 +1,105 @@
+/* TestimonialSlider.css */
+/* Change arrow buttons color to yellow */
+
+/* Change dots color to yellow */
+
+/* slick-arrow slick-prev */
+
+
+
+
+.slick-slide > div {
+  margin: 10px 20px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+.card {
+  border: 1px solid #fff;
+  border-radius: 8px;
+  overflow: hidden;
+
+  cursor: pointer;
+}
+
+.card-top h1 {
+  font-size: 0.9rem;
+  margin: 20px;
+}
+
+.card-top > img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-bottom {
+  margin: 10px 20px;
+}
+
+.category {
+  position: relative;
+}
+.category::before {
+  content: '';
+  background: rgb(255, 61, 61);
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  right: 0;
+  height: 2px;
+}
+.slick-dots li button:before
+{
+    font-size: 20px;
+    line-height: 20px;
+    
+}
+.bg-slide{
+background: url("carausalbg.png") no-repeat;
+background-size: cover;
+position: relative;
+background-position: 100%;
+}
+.slick-dots li.slick-active button:before {
+  color:var(--primary-color) !important;
+
+}
+.button__bar li.slick-active button {
+  border-radius:none !important;
+  width: 40px !important;
+}
+.slick-prev:before,.slick-next:before{
+color:var(--button-bg);
+border-radius: 50%;
+  font-size: 23px;
+}
+/* .slick-prev::before{
+  margin-left: -60px;
+} */
+.slick-dots li.slick-active button {
+  width: 100px;
+  height: 20px; 
+  border-radius: 0px; 
+}
+
+.home-slider .slick-prev{
+  left: -90px !important;
+}
+.home-slider .slick-next{
+  right: 165px !important;
+}
+#testimonial-card .slick-slider .slick-prev:before, .slick-next:before{
+
+}
+.testimonial-card{
+  border-radius: 10px;
+
+}
+.testimonial-card{
+  box-shadow: 0px 4px 26px 0px rgba(255, 183, 46, 0.6);
+}
+.mrgn{
+  margin: -20px 0px;
+}

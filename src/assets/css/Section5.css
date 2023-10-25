@@ -1,0 +1,81 @@
+.top-heading{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    line-height: 3rem;
+    
+    }
+    .home-slderHeading{
+
+        font-family: var( --accent-color);
+        font-weight: 700;
+        font-size: 2.6rem;
+        color: var(--primary-color);
+        line-height: 2rem;
+
+    }
+  .homeHeading{
+    font-family: var(--secondry-font);
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 3.4rem;
+
+
+  }
+
+
+    .sub-heading{
+        font-family: var(--primary-font);
+        font-weight: 700;
+        font-size: 2.2rem;
+        line-height: 4rem;
+    }
+    .content{
+        font-family: var(--primary-font);
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        color:rgba(143, 143, 143, 1);
+    
+    }
+    .memberbtn{
+       width: 222px;
+        height: 60px;
+       font-family: var(--primary-font);
+        font-weight: 700;
+        font-size: 1.1rem;
+        line-height: 3rem;
+        border: none;
+        border-radius: 60px;
+        color: white;
+        background-color: var(--button-bg);
+        box-shadow: 0px 7px 19px 0px rgba(254, 167, 0, 0.8);
+        
+    }
+    .learnMore{
+        background: white;
+        width: 222px;
+        height: 60px;
+       font-family: var(--primary-font);
+        font-weight: 700;
+        font-size: 1.1rem;
+        line-height: 3rem;
+        border: 1px solid rgba(254,167,0.1);
+        border-radius: 60px;
+        box-shadow: 0px 7px 15px 0px rgba(235, 154, 0, 0.7);  
+    }
+    .numbers{
+        font-family: var(--primary-font);
+        font-weight: 700;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+    }
+    .users{
+        font-family: var(--primary-font);
+        font-weight: 700;
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+     color:rgba(143, 143, 143, 1)
+    }

@@ -1,0 +1,31 @@
+.footer-about{
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    color: var(--secondry-white-color);
+}
+.nav-title{
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: var(--secondry-white-color);
+
+
+}
+.footernav h5{
+    font-family: var(--primary-font);
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 35px;
+    color: var(--secondry-white-color);
+}
+.subfooter-text{
+    font-family: var(--primary-font);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25px;
+    color: var(--secondry-white-color);
+
+}
