@@ -40,7 +40,7 @@ body{
 }
 
 .bg-img {
-  background-image: url("background-img.png");
+  background-image: url("/public/background-img.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
