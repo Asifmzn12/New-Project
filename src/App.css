@@ -65,21 +65,21 @@ body{
 }
 
 .bgimg {
-  background-image: url("FourthSectionbg.png");
+  background-image: url("/public/FourthSectionbg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 bg-img-carusal {
-  background-image: url("carausalbg.png");
+  background-image: url("/public/carausalbg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .bgchild {
-  background: url("childbg.png"), no-repeat;
+  background: url("/public/childbg.png"), no-repeat;
   background-size: cover;
   background-position: 50% 55%;
   
