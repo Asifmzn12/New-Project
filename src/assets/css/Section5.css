@@ -9,10 +9,11 @@
     }
     .home-slderHeading{
 
-        font-family: var( --accent-color);
+        font-family: var(--secondry-font);
         font-weight: 700;
         font-size: 2.6rem;
-        color: var(--primary-color);
+        color: #FFB933;
+
         line-height: 2rem;
 
     }
