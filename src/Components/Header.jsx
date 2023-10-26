@@ -9,10 +9,10 @@ function Header() {
     return (
         <Navbar
             expand="lg"
-            className="bg-body-tertiary py-2 py-md-1 text-capitalize navlinks bg-color"
+            className="bg-body-tertiary py-2 py-md-0 text-capitalize navlinks bg-color"
             fixed="top"
         >
-            <Container className="py-1 text-white">
+            <Container className="py-0 text-white">
                 <Navbar.Brand to="/">
                     <img src="logo.png" className="img-fluid"></img>
                 </Navbar.Brand>
