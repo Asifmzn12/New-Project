@@ -5,7 +5,7 @@ const slidercards = [{
     sliderHeading:"Kings and Queens",
     sliderheader2:"  in the Holy Lands",
     content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.",
-    locationImg:"firecenter.png",
+    locationImg:"locations.png",
     mapImg:"map.png"
 
 
@@ -16,7 +16,7 @@ const slidercards = [{
     sliderHeading:"Kings and Queens",
     sliderheader2:"  in the Holy Lands",
     content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.",
-    locationImg:"firecenter.png",
+    locationImg:"locations.png",
     mapImg:"map.png"
 },
 
