@@ -104,10 +104,10 @@ bg-img-carusal {
 }
 
 .box1 {
-  left: 23%;
+  left: 15%;
 }
 .box-2{
-  right: 4%;
+  right: 0%;
 }
 .content-2{
   font-family: var(--primary-font);
@@ -185,7 +185,7 @@ line-height: 1.3rem;
 
 }
 .borderrounded{
-  max-width: 45%;
+  max-width: 60%;
 }
 @media only screen and (max-width:786px){
   .borderrounded{
