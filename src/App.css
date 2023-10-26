@@ -174,11 +174,9 @@ line-height: 1.3rem;
 
 }
 
-.home-slider .slick-prev, .slick-next{
-  top: 32% !important;
-}
+
 .img-section{
-  top: 170px !important;
+  top: 50px !important;
 }
 .cardbox{
   max-width: 700px;

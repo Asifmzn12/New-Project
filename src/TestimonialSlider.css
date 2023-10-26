@@ -107,3 +107,8 @@ border-radius: 50%;
 .sliderrow{
   padding: 35px 0 220px 0;
 }
+
+
+.home-slider .slick-prev, .slick-next{
+  top: 35% !important;
+}
