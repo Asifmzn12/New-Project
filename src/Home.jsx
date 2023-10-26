@@ -82,11 +82,11 @@ function HomeSlider() {
 
           <div className="carousel-item" key={index}>
             <div className="row sliderrow justify-content-center">
-              <div className="col-lg-4">
-                <div className="text-content d-flex flex-column justify-content-center align-items-start gap-3 ">
+              <div className="col-lg-4 mt-3">
+                <div className="text-content d-flex flex-column justify-content-center align-items-start ">
                   <img src={card.img} className="img-fluid" alt="Title Icon" />
-                  <h5 className="home-title homeHeading text-white">
-                    <span className="home-slderHeading">{card.slderHeader}</span> <br />
+                  <h5 className="home-title homeHeading text-white my-2">
+                    <span className="home-slderHeading ">{card.slderHeader}</span> <br />
                     {card.sliderHeading} <br />
                   {card.sliderheader2}
                   </h5>
