@@ -20,7 +20,7 @@ function Section4() {
                             <div className="col-md-4"></div>
                         </div>
                         <div className="row py-3 justify-content-md-between justify-content-evenly">
-                            <div className="col-md-5 bg-white leftbox d-flex flex-column justify-content-center align-items-center py-4 gap-1 shadow-lg" >
+                            <div className="col-md-5 rounded bg-white leftbox d-flex flex-column justify-content-center align-items-center py-4 gap-1 shadow-lg" >
                                 <div className="py-2 my-3 my-md-0">
                                     <img src="heart.png" className="img-fluid"></img>
 
@@ -29,11 +29,11 @@ function Section4() {
                                 <p className="users text-uppercase">Volunteers</p>
 
                             </div>
-                            <div className="col-md-5 bg-white  rightbox py-4 d-flex flex-column justify-content-center align-items-center shadow-lg gap-1">
+                            <div className="col-md-5 rounded bg-white  rightbox py-4 d-flex flex-column justify-content-center align-items-center shadow-lg gap-1">
                                 <div className="py-2 my-3 my-md-0">
                                     <img src="users.png" className="img-fluid"></img>
                                 </div>
-                                <h6 className="numbers">2k</h6>
+                                <h6 className="numbers">2K</h6>
                                 <p className="users text-uppercase">Beneficiaries</p>
 
                             </div>
