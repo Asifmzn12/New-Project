@@ -32,8 +32,8 @@ function HomeSlider() {
   const settings = {
     speed: 2000,
     slidesToShow: 1,
-    slidesToScroll: 3,
-    initialSlide: 0,
+    slidesToScroll: 1,
+    initialSlide: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     responsive: [
@@ -90,7 +90,7 @@ function HomeSlider() {
                   <p className="content">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry&apos;s standard dummy text ever since.
-                  </p>
+                  </p>r
                   <button className="learnMore">Membership</button>
                 </div>
               </div>
