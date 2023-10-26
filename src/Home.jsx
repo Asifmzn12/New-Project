@@ -73,7 +73,7 @@ function HomeSlider() {
 
   return (
     <div className="HomeSlider
-    bg-img py-lg-5 py-1">
+    bg-img py-lg-5 py-1 ">
       <div className='container py-lg-5 py-1'>
         <Slider {...settings} className='home-slider'>
 
