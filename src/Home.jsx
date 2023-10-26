@@ -1,5 +1,6 @@
 // import { useState } from 'react';
 import Slider from 'react-slick';
+import slidercards from './config/homeslider';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './TestimonialSlider.css';
@@ -73,57 +74,39 @@ function HomeSlider() {
 
   return (
     <div className="HomeSlider
-    bg-img py-lg-5 py-1 ">
-      <div className='container py-lg-5 py-1'>
+    bg-img  py-1 ">
+      <div className='container py-lg-1 py-1'>
         <Slider {...settings} className='home-slider'>
 
-          <div className="carousel-item py-lg-5 py-1">
-            <div className="row  py-lg-5 py-1 justify-content-center">
-              <div className="col-lg-4 col-12">
-                <div className="text-content">
-                  <img src="title-icon.png" className="img-fluid" alt="Title Icon" />
-                  <h5 className="home-title homeHeading text-white">
-                    <span className="home-slderHeading">Order of the</span> <br />
-                    Kings and Queens <br />
-                    in the Holy Lands
-                  </h5>
-                  <p className="content">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry&apos;s standard dummy text ever since.
-                  </p>r
-                  <button className="learnMore">Membership</button>
-                </div>
-              </div>
-              <div className="col-md-8 col-12 position-relative img-section">
-                <img src="locations.png" className="img-fluid locationmap" alt="Fire Center" />
-                <img src="map.png" className="img-fluid map" alt="Map" />
-              </div>
-            </div>
-          </div>
+        {slidercards.map((card,index)=>(
 
-          <div className="carousel-item">
-            <div className="row justify-content-center">
+          <div className="carousel-item" key={index}>
+            <div className="row sliderrow justify-content-center">
               <div className="col-lg-4">
                 <div className="text-content d-flex flex-column justify-content-center align-items-start gap-3 ">
-                  <img src="title-icon.png" className="img-fluid" alt="Title Icon" />
+                  <img src={card.img} className="img-fluid" alt="Title Icon" />
                   <h5 className="home-title homeHeading text-white">
-                    <span className="home-slderHeading">Order of the</span> <br />
-                    Kings and Queens <br />
-                    in the Holy Lands
+                    <span className="home-slderHeading">{card.slderHeader}</span> <br />
+                    {card.sliderHeading} <br />
+                  {card.sliderheader2}
                   </h5>
                   <p className="content">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry&apos;s standard dummy text ever since.
+                  {card.content}
                   </p>
                   <button className="learnMore">Membership</button>
                 </div>
               </div>
               <div className="col-md-8 position-relative img-section">
-                <img src="firecenter.png" className="img-fluid locationmap" alt="Fire Center" />
-                <img src="map.png" className="img-fluid map" alt="Map" />
+                <img src={card.locationImg} className="img-fluid locationmap" alt="Fire Center" />
+                <img src={card.mapImg} className="img-fluid map" alt="Map" />
               </div>
             </div>
           </div>
+
+
+
+        ))}
+
 
 
         </Slider>
