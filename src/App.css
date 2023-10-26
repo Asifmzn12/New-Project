@@ -177,13 +177,8 @@ line-height: 1.3rem;
 .img-section{
   top: 50px !important;
 }
-.cardbox{
-  max-width: 700px;
 
-}
-.borderrounded{
-  max-width: 60%;
-}
+
 @media only screen and (max-width:786px){
   .borderrounded{
     border: none;
