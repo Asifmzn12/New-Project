@@ -1,4 +1,4 @@
-export const cards = [{
+ const cards = [{
     id: 1,
     img: "tackling-poverty.png",
     title: "Tackling Poverty",
@@ -22,5 +22,5 @@ para: "simply dummy text of the printing and typesetting industry. Lorem Ipsum h
 }
 
 
-
 ]
+export default cards

@@ -79,9 +79,7 @@ border-radius: 50%;
 .home-slider .slick-next{
   right: 165px !important;
 }
-#testimonial-card .slick-slider .slick-prev:before, .slick-next:before{
 
-}
 .testimonial-card{
   border-radius: 10px;
 
@@ -145,4 +143,11 @@ border-radius: 50%;
   outline: 0;
   opacity: 1;
 
+}
+
+.cardeffect{
+  transition:all 0.3s ease;
+}
+.cardeffect :hover{
+transform: scale(1.01);
 }

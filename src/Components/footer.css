@@ -28,4 +28,14 @@
     line-height: 25px;
     color: var(--secondry-white-color);
 
+
+}
+.footernav h5{
+    transition: all 0.3 ease;
+
+}
+.footernav h5:hover{
+    color: rgb(219, 213, 213);
+    cursor: pointer;
+    transform: scale(.98);
 }

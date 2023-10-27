@@ -8,8 +8,10 @@ function Footer() {
             <div className="container py-lg-5 py-1">
                 <div className="row py-lg-5 py-1 text-white justify-content-center align-items-start ">
                     <div className="col-md-6">
-                        <p className='footer-about'>Website designed and built by Plaxonic technologies Pvt Ltd
-                            For technical issues with this website, please contact the webmistress at:mailto : contact@plaxonic.com This site was last modified on <strong>12 july, 2023</strong></p>
+                        <p className='footer-about'>is simply dummy text of thprinting and typesetting ndustry.Lorem Ipsum has been the industry&apos;s stand ard dummy text ever since
+                        is simply dummy text of thprinting and typesetting ndustry.Lorem Ipsum has been the industry&apos;s stand ard dummy text ever since.
+
+                         </p>
                     </div>
                     <div className="col-md-3 col-12 col-sm-6 d-flex flex-column justify-content-center align-items-start align-items-lg-center">
                         <div className="navlinks">
@@ -40,8 +42,8 @@ function Footer() {
                         <div className="col-md-6 pt-3 ">
                             <p className='subfooter-text text-lg-start text-center' >© Copyright 2018 Order of Kings and Queens in the Holy Lands</p>
                         </div>
-                        <div className="col-md-6 icons d-flex justify-content-center  gap-5 align-items-center">
-                            <BiLogoFacebookCircle size={"30px"} />
+                        <div className="col-md-6 icons d-flex justify-content-center socialicons  gap-5 align-items-center">
+                            <BiLogoFacebookCircle size={"30px"} / >
                             <span className='bg-white  rounded-pill'>
                             <BiLogoInstagramAlt size={"26px"} style={{color:"black"}} />
                             </span>

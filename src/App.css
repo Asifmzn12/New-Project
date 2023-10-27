@@ -11,6 +11,10 @@
 
 body{
   padding-top: 75px;
+  height: 100vh;
+  overflow-x: hidden !important;
+  scroll-behavior: smooth;
+  transition: all .5s ease-in-out;
 }
 .bg-row {
   background: url("map.png"), no-repeat;
@@ -193,4 +197,25 @@ line-height: 1.3rem;
     max-width: 100%;
     box-shadow: none;
   }
+}
+
+.leftbox,.rightbox{
+  transition: all 0.3s ease;
+}
+.leftbox:hover,.rightbox:hover{
+transform: scale(.9);
+}
+.content-2{
+  transition: all 0.3s ease;
+
+}
+.content-2:hover{
+  font-size: 1.06rem;
+}
+.socialicons svg{
+transition: all 0.3 ease;
+
+}
+.socialicons svg:hover{
+  transform: scale(.90);
 }
