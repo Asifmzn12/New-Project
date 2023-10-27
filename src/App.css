@@ -56,7 +56,15 @@ body{
   height: 80%;
   border-right: 3px solid rgba(231, 231, 231, 1);
 }
-
+@media only screen and (max-width:768px) {
+  .brdr ::after {
+    display: none;
+  }
+  .cardcontent{
+    margin-inline: 0px !important;
+  }
+  
+}
 .borderrounded {
   border: 2px solid #ffb933;
   border-radius: 40px;
