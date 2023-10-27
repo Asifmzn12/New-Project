@@ -20,7 +20,7 @@ function Section4() {
                             <div className="col-md-4"></div>
                         </div>
                         <div className="row py-3 justify-content-md-between justify-content-evenly">
-                            <div className="col-md-5 rounded bg-white leftbox d-flex flex-column justify-content-center align-items-center py-4 gap-1 shadow-lg" >
+                            <div className="col-md-5 rounded bg-white leftbox d-flex flex-column justify-content-center align-items-center p-0  gap-1 shadow-lg" >
                                 <div className="py-2 my-3 my-md-0">
                                     <img src="heart.png" className="img-fluid"></img>
 
