@@ -35,8 +35,9 @@ function Section6() {
     infinite: false,
     speed: 1000,
     slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToScroll: 3,
     initialSlide: 0,
+    dotsClass: "button__bar",
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     responsive: [
@@ -85,7 +86,7 @@ function Section6() {
 
         <Slider {...settings} id="testimonial-card">
           {dataDigitalBestSeller.map((item) => (
-            <div className="testimonial-card mx-2 bg-body" key={item.id}>
+            <div className="testimonial-card mx-2 bg-body" key={item.id} aria-activedescendant='true'>
                 <p className='content-2 mx-4 py-lg-5 py-1 text-capitalize'><span className='heading1 '>&#x275B; &#x275B;</span> {item.title}  <span className='heading1'>&#x275C;	&#x275C;</span></p>
                 <div className='d-flex mrgn flex-column justify-content-center align-items-center'>
                   <div className='img-content position-relative d-flex justify-content-center align-items-center flex-column'>
