@@ -5,7 +5,7 @@ function Section3() {
             <div className="  m-0 p-0 py-lg-5 py-1 my-5">
                 <div className="container position-relative   bg-white z-2 py-lg-5 py-1 ">
                     <div className="container  ">
-                        <div className="row mx-5 bg-white borderrounded py-3 position-relative  border-right  justify-content-md-start  justify-content-lg-center align-items-md-start align-items-lg-center">
+                        <div className="row mx-lg-5 mx-0 bg-white borderrounded py-3 position-relative  border-right  justify-content-md-start  justify-content-lg-center align-items-md-start align-items-lg-center">
                             {cards.map((cardinfo, index) => (
                                 <div className="col-lg-4 col-md-6 brdr border-line  position-relative d-flex flex-column justify-content-center align-items-center" key={index}>
                                     <div className="imgcontainer my-2">
