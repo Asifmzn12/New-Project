@@ -79,7 +79,7 @@ function Section6() {
 
   return (
     <div className="Section6  bg-slide mb-5">
-      <div className='container py-lg-5 py-1'>
+      <div className='container pt-lg-5 py-1'>
         <h5 className="top-heading  text-uppercase text-end">Testimonials</h5>
         <h4 className="sub-heading text-end mb-5">Thoughts about our work</h4>
 
