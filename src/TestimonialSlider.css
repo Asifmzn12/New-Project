@@ -159,11 +159,11 @@ transform:translateY(-10px) !important;
 }
 
 .slick-prev::before{
-  content:url(./public/leftarrow.png)
+  content:url(leftarrow.png)
    !important;
 }
 .slick-next::before{
-  content:url(./public/rightarrow.png)
+  content:url(rightarrow.png)
    !important;
 }
 .slick-prev::before, .slick-next::before{
