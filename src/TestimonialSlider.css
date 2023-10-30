@@ -157,3 +157,19 @@ transform: scale(1.01);
 .testimonial-card:hover{
 transform:translateY(-10px) !important;
 }
+
+.slick-prev::before{
+  content:url(./public/leftarrow.png)
+   !important;
+}
+.slick-next::before{
+  content:url(./public/rightarrow.png)
+   !important;
+}
+.slick-prev::before, .slick-next::before{
+opacity: 1  !important;
+transition: all 0.3s;
+}
+.slick-prev:hover:before,.slick-prev:hover:before{
+  opacity: .8;
+}
