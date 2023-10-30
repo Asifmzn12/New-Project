@@ -173,3 +173,10 @@ transition: all 0.3s;
 .slick-prev:hover:before,.slick-prev:hover:before{
   opacity: .8;
 }
+.Section6 .slick-prev::before{
+  display: none;
+}
+.Section6 .slick-next::before{
+  display: none;
+}
+
