@@ -1,4 +1,21 @@
 /* Header.css */
+#root{
+overflow: hidden;
+
+}
+@media only screen and(max-width:768px){
+    .nav-link.active::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 20% !important;
+        height: 8px;
+        color: white !important;
+        background-color: rgba(255, 185, 51, 1);
+        border-radius: 12px;
+    } 
+    }
 
 .nav-link {
  color: rgba(215, 215, 215, 1);
@@ -70,3 +87,5 @@ transition: all 0.6s ease-in-out;
     background-color: rgba(255, 185, 51, 1);
     border-radius: 12px;
 }
+
+
