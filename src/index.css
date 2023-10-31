@@ -17,6 +17,20 @@
 
 }
 
+@media only screen and (max-width:768px) {
+        .nav-link.active::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 20% !important;
+            height: 8px;
+            color: white !important;
+            background-color: rgba(255, 185, 51, 1);
+            border-radius: 12px;
+        }   
+    }
+
 
 .top-heading {
     font-family: var(--primary-font);
