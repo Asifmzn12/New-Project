@@ -36,7 +36,7 @@ function Footer() {
                 </div>
             </div>
 
-{/*             <div className="subfooter py-4 text-white position-absolute  w-100 ">
+             <div className="subfooter py-4 text-white position-absolute  w-100 ">
                 <div className="container">
                     <div className="row justify-content-between align-items-center ">
                         <div className="col-md-6 pt-3 ">
@@ -54,7 +54,7 @@ function Footer() {
                           
                         </div>
                     </div>
-                </div> */}
+                </div> 
             </div>
         </div>
     )
