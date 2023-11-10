@@ -36,7 +36,7 @@ function Footer() {
                 </div>
             </div>
 
-            <div className="subfooter py-4 text-white position-absolute  w-100 ">
+            <div className="subfooter py-4 text-white   w-100 ">
                 <div className="container">
                     <div className="row justify-content-between align-items-center ">
                         <div className="col-md-6 pt-3 ">
@@ -49,7 +49,7 @@ function Footer() {
                             </span>
                           
                             <AiFillTwitterCircle size={"30px"} />
-                            <span className='bg-white  rounded-pill'>
+                            <span className='bg-white  rounded-pill '>
                             <BiLogoYoutube size={"26px"} style={{color:"black"}} /></span>
                           
                         </div>
